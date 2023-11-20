@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212222;
+    color: #f1f0f0;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #c7c7c7;
+    padding: 1em;
+    text-align: center;
+  }
+  nav {
+    margin-top: 1em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #c7c4c4;
+    font-weight: bold;
+  }
+  
+  main.faculty {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .faculty-member {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .faculty-member img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
