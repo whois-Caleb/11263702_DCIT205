@@ -12,6 +12,12 @@ body {
     padding: 1em;
     text-align: center;
   }
+  
+  header img {
+    align-content:end ;
+    position: relative;
+  }
+
   nav {
     margin-top: 1em;
   }
@@ -33,12 +39,12 @@ body {
     font-weight: bold;
   }
   
-  main.faculty {
+  main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
   }
-
+  
   .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Resources/Students_in_lecture.webp");
     background-position: center;
@@ -51,19 +57,25 @@ body {
     padding: 20px;
     border-radius: 5px;
   }
-  
-  .faculty-member {
-    background-color:#212222;
-    box-shadow: #000000;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+
+  .hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  
-  .faculty-member img {
-    max-width: 40%;
-    height: 250px;
-    border-radius: 50%;
+
+  .about,
+  .events {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 1em;
+  }
+  .contact {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 1em;
   }
   
   footer {
@@ -74,4 +86,4 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+  }  
