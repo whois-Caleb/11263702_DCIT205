@@ -41,14 +41,15 @@ body {
   }
   
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Resources/Students_in_lecture.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Resources/Contact_hero.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     align-content: center;
     color: #c7c7c7;
+    font-size: x-large;
     text-align: center ;
-    height: 280px;
+    height: 200px;
     padding: 20px;
     border-radius: 5px;
   }
