@@ -6,7 +6,7 @@ Language of choice:
 -It was determined that using Javascript was not necessary since only the frontend was required.
 
 
-Approch:
+Approach:
 
 -It was determined that the optimal way of approaching the project was to generate an outline of each page involved and later fill in the details as required, starting with the homepage.
 
