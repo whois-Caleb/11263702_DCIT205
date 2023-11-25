@@ -54,6 +54,25 @@ body {
     border-radius: 5px;
   }
   
+  .sub_hero {
+    background-color: #3a3a2d;
+    color: #c7c7c7;
+    font-size: x-large;
+    text-align: center;
+    text-anchor: middle;
+    height: 73px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .sub_hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   .about,
   .events {
     margin-top: 20px;
@@ -71,7 +90,7 @@ body {
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
+    position:relative;
     bottom: 0;
     width: 100%;
-  }
+  }  
