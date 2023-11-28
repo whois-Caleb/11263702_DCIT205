@@ -6,7 +6,7 @@ Language of choice:
 -It was determined that using Javascript was not necessary since only the frontend was required.
 
 
-Approach:
+Approch:
 
 -It was determined that the optimal way of approaching the project was to generate an outline of each page involved and later fill in the details as required, starting with the homepage.
 
@@ -19,7 +19,6 @@ Challenges:
 
 -Such inforamtion included details of the various staff members for the faculty page, as well as information on projects being carried out by the department, and upcoming events among others.
 
--Meeting the required minimum number of ten webpages.
 
 
 Attempted Resolution of Challenges Faced:
@@ -28,4 +27,4 @@ Attempted Resolution of Challenges Faced:
 
 -Enquiries were made concerning department projects and upcoming events. This proved to be a fruitless endeavour.
 
--...
+-Resutantly, fictitious articles and events were written about.

@@ -12,25 +12,68 @@ body {
     padding: 1em;
     text-align: center;
   }
+
   nav {
-    margin-top: 1em;
+    background-color: #333;
+    overflow: hidden;
   }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
+
   nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #c7c4c4;
-    font-weight: bold;
+  }
+
+  nav a:hover {
+    background-color: #000000;
+    color: #c7c7c7;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-right: auto;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7c7979;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #494646;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
   
   main.faculty {
